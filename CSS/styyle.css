@@ -980,8 +980,19 @@ nav{
     }
 }
 @media screen and (min-width: 360px){
+  .contact-card{
+    grid-template-columns: repeat(1, 160px);
+    justify-content: center;
+    margin-left: -2rem;
+    }
+    .contact-card-box{
+      width: 11rem;
+    }
+    .contact-card-description{
+      font-size: .7rem;
+    }
   .subscribe-button{
-    width: 6rem;
+    width: 7rem;
   }
 }
 
