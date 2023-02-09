@@ -450,8 +450,12 @@ nav{
 }
 
 /*=============== POPULAR ===============*/
-.popualr-container{
+.popular-container{
   padding: 1rem 0 5rem;
+  max-width: 1020px;
+  display: flex;
+  
+  width: 100%;
 }
 
 .popular-card{
@@ -464,8 +468,8 @@ nav{
 }
 
 .popular-img{
-  border-radius: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1.5rem;
 }
 
 .popular-data{
@@ -925,6 +929,7 @@ nav{
   grid-template-columns: repeat(1, 180px);
   justify-content: center;
   }
+  
 }
 
 @media screen and (max-width: 320px) {
@@ -974,7 +979,11 @@ nav{
       gap: 2.5rem;
     }
 }
-
+@media screen and (min-width: 360px){
+  .subscribe-button{
+    width: 6rem;
+  }
+}
 
 /* For medium devices */
 @media screen and (min-width: 576px) {
